@@ -357,7 +357,7 @@ int main() {
 	G.dijkstra(num_nodes);
 
 	int hold = G.output();
-	cout << "\n\nLightest Weight from Start to Finish: " << hold << "\n\n";
+	cout << "\n\nLightest Weight from Start to Finish: " << hold << "\n";
 	cout << "Press q to quit: ";
 	string usr_input;
 	getline(cin,usr_input);
