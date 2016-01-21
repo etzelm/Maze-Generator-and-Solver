@@ -358,6 +358,9 @@ int main() {
 
 	int hold = G.output();
 	cout << "\n\nLightest Weight from Start to Finish: " << hold << "\n\n";
-	return 0;
+	cout << "Press q to quit: ";
+	string usr_input;
+	getline(cin,usr_input);
+	if (usr_input == "q") exit(0);
 }
 
